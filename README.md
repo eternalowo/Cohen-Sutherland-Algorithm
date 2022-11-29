@@ -7,3 +7,11 @@ The algorithm determines the code of the segment ends. If both codes are zero, t
 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/98911288/204525729-5ef441fc-6ad6-484e-8b0e-407e48895124.png)
+
+
+<h3>Some tests: </h3>
+
+<h4>Line is completely inside the rectangle</h4>
+![image](https://user-images.githubusercontent.com/98911288/204526227-4b29c2d4-a3ab-4232-9d89-ffa2936717c1.png)
+
+![image](https://user-images.githubusercontent.com/98911288/204526168-1a87b54b-74b7-41ed-9b92-397288aa036e.png)
