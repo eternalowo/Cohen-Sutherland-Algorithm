@@ -10,6 +10,8 @@ Cohen–Sutherland clipping algorithm clips a line from line_first (x, y) to lin
 <h3>function compute_out_code(point, rect_min, rect_max):</h3>
 Compute the bit code for a point (x, y) using the clip rectangle bounded diagonally by rect_min (x, y), and rect_max (x, y)
 
+
+
 ![Screenshot_1](https://user-images.githubusercontent.com/98911288/204525729-5ef441fc-6ad6-484e-8b0e-407e48895124.png)
 
 
@@ -17,6 +19,10 @@ Compute the bit code for a point (x, y) using the clip rectangle bounded diagona
 
 <h4>Line is completely inside the rectangle</h4>
 
+
 ![image](https://user-images.githubusercontent.com/98911288/204526227-4b29c2d4-a3ab-4232-9d89-ffa2936717c1.png)
 
+
 ![image](https://user-images.githubusercontent.com/98911288/204526168-1a87b54b-74b7-41ed-9b92-397288aa036e.png)
+
+
