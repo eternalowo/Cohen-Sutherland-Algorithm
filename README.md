@@ -37,3 +37,9 @@ Compute the bit code for a point (x, y) using the clip rectangle bounded diagona
 ![image](https://user-images.githubusercontent.com/98911288/204528609-f10eebe8-1fe6-4047-9fd4-b068b56037a8.png)
 
 ![image](https://user-images.githubusercontent.com/98911288/204528528-84fd0361-5068-4386-9605-87efbc1a1f73.png)
+
+<h4>Line doesn't cross any of rectangle sides</h4>
+
+![image](https://user-images.githubusercontent.com/98911288/204528907-6eee9b09-6b9c-41a0-8f18-db30ea828802.png)
+
+![image](https://user-images.githubusercontent.com/98911288/204529029-7d122e21-95e8-461d-bc39-1ddb2aa11786.png)
