@@ -4,9 +4,11 @@ The algorithm divides the plane into 9 parts by straight lines that form the sid
 
 The algorithm determines the code of the segment ends. If both codes are zero, then the segment is completely in the rectangle. If the bitwise AND of the codes is not zero, then the segment does not intersect the rectangle (since this means that both ends of the segment are on the same side of the rectangle). In other cases, the algorithm selects the end of the segment (or one of the ends) that has a non-zero code (that is, located outside the rectangle), finds the nearest intersection point of the segment with one of the straight lines forming the sides of the rectangle, and uses this intersection point as the new end of the segment. The shortened segment is passed through the algorithm again.
 
-function cohen_sutherland_line_clip(line_first, line_second, rect_min, rect_max): Cohen–Sutherland clipping algorithm clips a line from line_first (x, y) to line_second (x, y) against a rectangle with diagonal from rect_min (x, y) to rect_max (x, y) returns True if line were clipped, or it were inside rectangle with coordinates of clipped line and False if line doesn't cross rectangle and coordinates of given line.
+<h4>function cohen_sutherland_line_clip(line_first, line_second, rect_min, rect_max):</h4>
+Cohen–Sutherland clipping algorithm clips a line from line_first (x, y) to line_second (x, y) against a rectangle with diagonal from rect_min (x, y) to rect_max (x, y) returns True if line were clipped, or it were inside rectangle with coordinates of clipped line and False if line doesn't cross rectangle and coordinates of given line.
 
-function compute_out_code(point, rect_min, rect_max): Compute the bit code for a point (x, y) using the clip rectangle bounded diagonally by rect_min (x, y), and rect_max (x, y)
+<h4>function compute_out_code(point, rect_min, rect_max):</h4>
+Compute the bit code for a point (x, y) using the clip rectangle bounded diagonally by rect_min (x, y), and rect_max (x, y)
 
 ![Screenshot_1](https://user-images.githubusercontent.com/98911288/204525729-5ef441fc-6ad6-484e-8b0e-407e48895124.png)
 
